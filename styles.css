@@ -8,14 +8,20 @@ h1, h2, h3, p, em, ol, ul, li  {
    font-family: Arial, Helvetica, sans-serif;
 }
 
-.top-picks li {
+.introduction h1 {
+    color: #ff6db4;
+    border-style: solid;
+    border-width: 3px;
+    border-left: #000000;
+}
+
+.top-picks li, .honorable-mentions li {
     float: inline-start;
     clear: both;
 }
 
 h3 {
     color: #ff6db4;
-    text-shadow: 2px 2px #ffe0ea
 }
 
 .table-of-contents h3 {
