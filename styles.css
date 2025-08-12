@@ -8,6 +8,10 @@ h1, h2, h3, p, em, ol, ul, li  {
    font-family: Arial, Helvetica, sans-serif;
 }
 
+.top-picks li {
+    float: inline-start;
+}
+
 h3 {
     color: #ff6db4;
     text-shadow: 2px 2px #ffe0ea
