@@ -69,13 +69,8 @@ button:hover {
     margin: 0 auto;
 }
 
-/* Changing the width of the Kuromi image. */
-.kuromi img {
-    width: 50mm;
-}
-
-/* Changing the width of the My Melody image. */
-.my-melody img {
+/* Changing the width of the My Melody and Kuromi image. */
+.my-melody img, .kuromi img {
     width: 50mm;
 }
 
@@ -84,6 +79,7 @@ button:hover {
     width: 95mm;
 }
 
+/* Making the div more stylistically appealing, I want the div to stay at the desired place. */
 .fixed {
     position: fixed;
     bottom: 0;
