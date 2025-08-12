@@ -10,6 +10,7 @@ h1, h2, h3, p, em, ol, ul, li  {
 
 .top-picks li {
     float: inline-start;
+    clear: both;
 }
 
 h3 {
