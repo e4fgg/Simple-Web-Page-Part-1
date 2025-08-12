@@ -12,7 +12,7 @@ h1, h2, h3, p, em, ol, ul, li  {
     color: #ff6db4;
     border-style: solid;
     border-width: 3px;
-    border-left: #000000;
+    padding: 1px;
 }
 
 .top-picks li, .honorable-mentions li {
