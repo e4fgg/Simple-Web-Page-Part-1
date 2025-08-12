@@ -12,6 +12,15 @@ h1, h2, h3, p, em, ol, ul, li  {
     color: #ff6db4;
 }
 
+.introduction li {
+    font-size: large;
+}
+
+#click-image {
+    text-align: center;
+    line-height: 0.3;
+}
+
 .top-picks li, .honorable-mentions li {
     float: inline-start;
     clear: both;
@@ -19,10 +28,6 @@ h1, h2, h3, p, em, ol, ul, li  {
 
 h3 {
     color: #ff6db4;
-}
-
-.table-of-contents h3 {
-    text-align: center;
 }
 
 /* Changing the border of the table to black, adding the border-collapse property, changing the width, margin, minimum width, and font size to make all the data fit better onto the table. The goal was to make everything look less crowded. */
@@ -64,6 +69,8 @@ button:hover {
 #sanrio-universe {
     border-radius: 40px;
     box-shadow: 5px 10px #fbaedd;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Centering the images. */
