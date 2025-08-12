@@ -18,7 +18,11 @@ h1, h2, h3, p, em, ol, ul, li  {
 
 #click-image {
     text-align: center;
-    line-height: 0.3;
+    line-height: 1;
+}
+
+.what-is-sanrio p {
+    line-height: 0.2
 }
 
 .top-picks li, .honorable-mentions li {
@@ -28,6 +32,16 @@ h1, h2, h3, p, em, ol, ul, li  {
 
 h3 {
     color: #ff6db4;
+}
+
+hr {
+    border-top: 8px solid #ffa1ce
+}
+
+.honorable-mentions hr {
+    position: relative;
+    top: 15px;
+    border-top: 8px solid #ffa1ce
 }
 
 /* Changing the border of the table to black, adding the border-collapse property, changing the width, margin, minimum width, and font size to make all the data fit better onto the table. The goal was to make everything look less crowded. */
