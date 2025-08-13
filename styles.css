@@ -8,19 +8,23 @@ h1, h2, h3, p, em, ol, ul, li  {
    font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Changing the color of the h1 texts of the introduction. */
 .introduction h1 {
     color: #ff6db4;
 }
 
+/* Changing the font size of the list items. */
 .introduction li {
     font-size: large;
 }
 
+/* Centering the text and changing the line height. */
 #click-image {
     text-align: center;
     line-height: 1;
 }
 
+/* Changing the line height of the div's text */
 .what-is-sanrio p {
     line-height: 0.2
 }
