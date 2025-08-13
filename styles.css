@@ -29,11 +29,13 @@ h1, h2, h3, p, em, ol, ul, li  {
     line-height: 0.2
 }
 
+/* Changing the way the list items are formatted for the topic picks and honorable mentions. */
 .top-picks li, .honorable-mentions li {
     float: inline-start;
     clear: both;
 }
 
+/* Changing the color of all h3 of the page. */
 h3 {
     color: #ff6db4;
 }
